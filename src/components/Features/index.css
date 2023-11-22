@@ -1,0 +1,17 @@
+#features{
+    height: 530px;
+    display: grid;
+    place-content: center;
+}
+#features .features-content{
+    max-width: 1200px;
+    display: flex;
+    margin:0 auto;
+    gap: 80px;
+}
+
+#features .title-features{
+    font-weight: 700;
+    font-size: 30px;
+    width: 300px;
+}

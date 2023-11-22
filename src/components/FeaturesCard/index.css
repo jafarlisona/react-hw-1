@@ -1,0 +1,23 @@
+.features-card {
+    width: 400px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.features-card .features-icon {
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    background-color: #277DFC;
+    padding: 12.5px 10px;
+}
+.features-card .features-text span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.features-card .features-text p{
+    margin-top: 10px;
+
+}

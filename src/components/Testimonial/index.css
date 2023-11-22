@@ -1,0 +1,33 @@
+.testimonial{
+    height: 365px;
+    background-color: #F8F9FA;
+    display: grid;
+    place-content: center;
+}
+.testimonial .testimonial-content{
+    width: 700px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.testimonial .testimonial-content p{
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+.testimonial .testimonial-content .testimonial-author{
+    display: flex;
+    height: 40px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial .testimonial-content .testimonial-author p{
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    margin-left: 20px;
+}

@@ -1,0 +1,39 @@
+nav {
+  background-color: #212529;
+  height: 60px;
+}
+nav .navbar {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+nav .navbar h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+nav .navbar ul {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+}
+nav .navbar ul li a {
+  color: #999999;
+  font-weight: 500;
+}
+nav .navbar ul li a:hover{
+    color:#c7c7c7 ;
+}
+nav .navbar ul li span {
+  color: #999999;
+  font-weight: 500;
+}
+nav .navbar ul li span:hover{
+    color:#c7c7c7 ;
+}
+.iconStyle{
+    margin-bottom: 3px;
+}
